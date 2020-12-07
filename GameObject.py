@@ -167,7 +167,7 @@ class Game:
         self.screen.blit(self.open_img, (0, 0))
 
         pygame.display.update()
-        time.sleep(1)
+        time.sleep(2)
 
         self.reset = False
         self.end = False
